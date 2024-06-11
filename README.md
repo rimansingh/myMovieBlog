@@ -3,7 +3,7 @@
 My Movie Blog is a simple web application that allows users to discover popular movies and search for their favorites. It is powered by the TMDB API for fetching movie data.
 
 ## Screenshoot
-![Movies Sample](https://github.com/rimansingh/myMovieBlog/images/sample.png)
+![Movies Sample](https://github.com/rimansingh/myMovieBlog/blob/main/images/sample.png)
 
 ## Features
 
