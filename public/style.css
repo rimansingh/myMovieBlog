@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.topbar {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.topbar a:hover {
+    background-color: #444;
+}
+
+.form-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="search"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    margin-right: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="search"]:focus {
+    outline: none;
+    border-color: #555;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    color: #222;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #ffca28;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+h3 {
+    color: #333;
+    margin-top: 10px;
+}
