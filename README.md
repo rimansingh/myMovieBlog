@@ -1,2 +1,43 @@
-# myMovieBlog
-A simple movie blog web application showcasing popular movies and allowing users to search for their favorites. Powered by the TMDB API for movie data. Contains client-side files for the frontend interface and server-side files for API configuration.
+# My Movie Blog
+
+My Movie Blog is a simple web application that allows users to discover popular movies and search for their favorites. It is powered by the TMDB API for fetching movie data.
+
+## Screenshoot
+![Movies Sample](https://github.com/rimansingh/movieWebApp/blob/main/images/screenshot.png)
+
+## Features
+
+- Discover Popular Movies: View a list of popular movies sorted by popularity.
+- Search Movies: Search for movies by title.
+- Dynamic Content: Content is dynamically loaded from the TMDB API.
+- Responsive Design: The application is designed to work on various devices and screen sizes.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- TMDB API
+
+## Installation
+
+To run the application locally, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/rimansingh/myMovieBlog.git
+    cd myMovieBlog
+    ```
+    
+2. Open the index.html file in your web browser.
+
+## Configuration
+
+Before running the application, make sure to obtain an API key from TMDB and update the `api.js` file with your API key.
+
+    ```bash
+    // api.js
+    export const API_KEY = "YOUR_API_KEY";
+
+    ```
