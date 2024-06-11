@@ -3,7 +3,7 @@
 My Movie Blog is a simple web application that allows users to discover popular movies and search for their favorites. It is powered by the TMDB API for fetching movie data.
 
 ## Screenshoot
-![Movies Sample](https://github.com/rimansingh/movieWebApp/blob/main/images/screenshot.png)
+![Movies Sample](https://github.com/rimansingh/myMovieBlog/images/sample.png)
 
 ## Features
 
@@ -25,10 +25,10 @@ To run the application locally, follow these steps:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/rimansingh/myMovieBlog.git
-    cd myMovieBlog
-    ```
+```bash
+git clone https://github.com/rimansingh/myMovieBlog.git
+cd myMovieBlog
+```
     
 2. Open the index.html file in your web browser.
 
@@ -36,9 +36,11 @@ To run the application locally, follow these steps:
 
 Before running the application, make sure to obtain an API key from TMDB and update the `api.js` file with your API key.
 
-    ```bash
-    export const API_KEY = "YOUR_API_KEY";
-    ```
+```bash
+// api.js
+
+export const API_KEY = "YOUR_API_KEY";
+```
 
 ## Contributing
 
