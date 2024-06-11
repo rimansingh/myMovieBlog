@@ -37,7 +37,16 @@ To run the application locally, follow these steps:
 Before running the application, make sure to obtain an API key from TMDB and update the `api.js` file with your API key.
 
     ```bash
-    // api.js
     export const API_KEY = "YOUR_API_KEY";
-
     ```
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to My Movie Blog, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/new-feature).
+3. Make your changes.
+4. Commit your changes (git commit -am 'Add new feature').
+5. Push to the branch (git push origin feature/new-feature).
+6. Create a new Pull Request.
