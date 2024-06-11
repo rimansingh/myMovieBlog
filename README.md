@@ -38,7 +38,6 @@ Before running the application, make sure to obtain an API key from TMDB and upd
 
 ```bash
 // api.js
-
 export const API_KEY = "YOUR_API_KEY";
 ```
 
