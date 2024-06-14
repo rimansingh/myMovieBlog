@@ -54,8 +54,6 @@ export const API_KEY = "YOUR_API_KEY";
 ## Git commands
 
 ```bash
-```bash
-
 # Initialize the Git repository (if not already initialized)
 git init
 
@@ -81,8 +79,6 @@ git remote add origin https://github.com/rimansingh/myMovieBlog.git
 
 # Push the changes to the remote repository
 git push -u origin main
-
-```
 ```
 
 ## Contributing
