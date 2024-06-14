@@ -18,6 +18,7 @@ My Movie Blog is a simple web application that allows users to discover popular 
 - CSS
 - JavaScript
 - TMDB API
+- Docker
 
 ## Installation
 
@@ -32,9 +33,48 @@ cd myMovieBlog
     
 2. Open the index.html file in your web browser.
 
+## Build and run the Docker container, passing your TMDB API key as a build argument
+
+```bash
+docker build --build-arg API_KEY=your_actual_api_key -t mymovieblog .
+docker run -d -p 80:80 mymovieblog
+```
+
+1. Open your web browser and navigate to http://localhost to view the application.
+
+```bash
+# Initialize the Git repository (if not already initialized)
+git init
+
+# Add all files to the staging area
+git add .
+
+# Commit the changes with a message
+git commit -m "Add comment"
+
+# Configure your Git user information
+git config --global user.email "your-email"
+git config --global user.name "your-username"
+
+# Check existing remotes
+git remote -v
+
+# If the URL for 'origin' is incorrect, update it
+git remote set-url origin https://github.com/rimansingh/myMovieBlog.git
+
+# Or, if you need to remove and re-add the remote
+git remote remove origin
+git remote add origin https://github.com/rimansingh/myMovieBlog.git
+
+# Push the changes to the remote repository
+git push -u origin main
+
+
+```
+
 ## Configuration
 
-Before running the application, make sure to obtain an API key from TMDB and update the `api.js` file with your API key.
+Before running the application, obtain an API key from TMDB and update the `api.js` file with your API key.
 
 ```bash
 // api.js
