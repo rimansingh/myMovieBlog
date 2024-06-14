@@ -42,7 +42,20 @@ docker run -d -p 80:80 mymovieblog
 
 1. Open your web browser and navigate to http://localhost to view the application.
 
+## Configuration
+
+Before running the application, obtain an API key from TMDB and update the `api.js` file with your API key.
+
 ```bash
+// api.js
+export const API_KEY = "YOUR_API_KEY";
+```
+
+## Git commands
+
+```bash
+```bash
+
 # Initialize the Git repository (if not already initialized)
 git init
 
@@ -69,16 +82,7 @@ git remote add origin https://github.com/rimansingh/myMovieBlog.git
 # Push the changes to the remote repository
 git push -u origin main
 
-
 ```
-
-## Configuration
-
-Before running the application, obtain an API key from TMDB and update the `api.js` file with your API key.
-
-```bash
-// api.js
-export const API_KEY = "YOUR_API_KEY";
 ```
 
 ## Contributing
